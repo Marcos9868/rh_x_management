@@ -8,9 +8,9 @@ const Header = () => {
       </LogoContainer>
       <MenuContainer>
         <ul>
-          <li>Cadastro Funcionários</li>
+          <li>Cadastrar Funcionários</li>
           <li>Gerar Holerites</li>
-          <li><a href="/login">Login</a></li>
+          <button>Login</button>
         </ul>
       </MenuContainer>
     </HeaderContainer>
