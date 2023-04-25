@@ -1,18 +1,21 @@
+import { Copyright, DevelopmentCopyright, FooterContainer, ListSocialMedia, SocialMediaContainer } from "./styles"
+import { FaDiscord, FaLinkedin } from 'react-icons/fa';
+
 const Footer = () => {
   return (
-    <>
-      <div>
-        <ul>
-          <li>Discord</li>
-          <li>Linkedin</li>
+    <FooterContainer>
+      <SocialMediaContainer>
+        <ListSocialMedia>
+          <li><FaDiscord /></li>
+          <li><FaLinkedin /></li>
           <li>Outlook</li>
-        </ul>
-      </div>
-      <div>
+        </ListSocialMedia>
+      </SocialMediaContainer>
+      <DevelopmentCopyright>
         <p>Desenvolvido por Marcos M. Ferreira</p>
-        <p>&copy;Todos os direitos reservados</p>
-      </div>
-    </>
+        <Copyright>&copy;Todos os direitos reservados</Copyright>
+      </DevelopmentCopyright>
+    </FooterContainer>
   )
 }
 
