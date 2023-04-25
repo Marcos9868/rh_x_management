@@ -10,7 +10,6 @@ export const FooterContainer = styled.div`
   width: 100%;
   height: 10rem;
   bottom: 0;
-  position: fixed;
   gap: 1.5rem;
 `;
 
