@@ -1,4 +1,11 @@
-import { Copyright, DevelopmentCopyright, FooterContainer, ListSocialMedia, SocialMediaContainer } from "./styles"
+import { 
+  Copyright, 
+  DevelopmentCopyright, 
+  FooterContainer, 
+  ListSocialMedia, 
+  SocialMediaContainer
+} from "./styles";
+import { MdEmail } from 'react-icons/md';
 import { FaDiscord, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
@@ -8,7 +15,7 @@ const Footer = () => {
         <ListSocialMedia>
           <li><FaDiscord /></li>
           <li><FaLinkedin /></li>
-          <li>Outlook</li>
+          <li><MdEmail /></li>
         </ListSocialMedia>
       </SocialMediaContainer>
       <DevelopmentCopyright>
