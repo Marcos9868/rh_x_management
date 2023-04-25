@@ -8,18 +8,41 @@ export const LoginWindowContainer = styled.div`
   justify-content: center;
   align-items: center;
   gap: 0.6rem;
-  padding: 5.5rem 3rem;
+  padding: 2.5rem 3rem;
+`;
+
+export const UserImage = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  height: 6rem;
+  background-color: darkgreen;
+  border: none;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  
+  svg {
+    color: #f5f5f5;
+    width: 3rem;
+    height: 3rem;
+  }
 `;
 
 export const FormContainer = styled.div`
+  gap: 1rem;
+`;
+
+export const Form = styled.div`
   display: flex;
   flex-direction: column;
   padding: 0 2rem;
   width: 400px;
-  height: 400px;
+  height: 350px;
   background-color: darkblue;
   color: #f5f5f5;
-  border-radius: 7px;
+  border-radius: 3rem;
   justify-content: center;
   gap: 1.5rem;
 `;
@@ -35,6 +58,6 @@ export const Input = styled.input`
 export const Button = styled.button`
   height: 2.3rem;
   border: none;
-  border-radius: 5px;
+  border-radius: 1rem;
   cursor: pointer;
 `;
