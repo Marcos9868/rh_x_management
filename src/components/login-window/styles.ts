@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 export const LoginWindowContainer = styled.div`
+  background-image: url('src/assets/logoLogin.jpg');
+  background-size: cover;
   display: flex;
   width: 100%;
-  height: 100%;
-  flex-direction: column;
+  height: 100vh;
   justify-content: center;
   align-items: center;
-  gap: 0.6rem;
-  padding: 2.5rem 3rem;
+
 `;
 
 export const UserImage = styled.div`
@@ -17,11 +17,11 @@ export const UserImage = styled.div`
   align-items: center;
   width: 6rem;
   height: 6rem;
-  background-color: darkgreen;
+  background-color: #222222;
   border: none;
   border-radius: 50%;
   margin: 0 auto;
-  margin-bottom: 1rem;
+  z-index: 9;
   
   svg {
     color: #f5f5f5;
@@ -31,7 +31,11 @@ export const UserImage = styled.div`
 `;
 
 export const FormContainer = styled.div`
-  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 `;
 
 export const Form = styled.div`
@@ -40,11 +44,22 @@ export const Form = styled.div`
   padding: 0 2rem;
   width: 400px;
   height: 350px;
-  background-color: darkblue;
+  background-color: #222222;
   color: #f5f5f5;
   border-radius: 3rem;
   justify-content: center;
   gap: 1.5rem;
+
+  h4 {
+    text-align: center;
+  }
+
+  p {
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+    
+  }
 `;
 
 export const Input = styled.input`
